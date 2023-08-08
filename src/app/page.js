@@ -20,43 +20,45 @@ export default function Home() {
     <Layout>
       <div className={styles.home}>
         <div className={styles.container}>
-          <div className={styles.left}>
-            <div>
-              <h1>
-                <span>Hi, My</span>
-                <span>name is Vikas</span>
-              </h1>
-              <p>I love creating beautiful and dynamic websites.</p>
-              <div className={styles.resume}>
-                <a href="/resume.pdf" download={true}>
-                  My Resume
-                </a>
-                <a href="mailto:vikask4590@gmail.com">Hire Me</a>
-              </div>
-              <div className={styles.socialLinks}>
-                <a
-                  href="https://www.linkedin.com/in/vikas7754/"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a href="https://github.com/vikas7754" target="_blank">
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
-                <a href="https://freecodez.com" target="_blank">
-                  <FontAwesomeIcon icon={faGlobe} />
-                </a>
-                <a
-                  href="https://www.instagram.com/divine_vikas"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
+          <div>
+            <div className={styles.left}>
+              <div>
+                <h1>
+                  <span>Hi, My</span>
+                  <span>name is Vikas</span>
+                </h1>
+                <p>I love creating beautiful and dynamic websites.</p>
+                <div className={styles.resume}>
+                  <a href="/resume.pdf" download={true}>
+                    My Resume
+                  </a>
+                  <a href="mailto:vikask4590@gmail.com">Hire Me</a>
+                </div>
+                <div className={styles.socialLinks}>
+                  <a
+                    href="https://www.linkedin.com/in/vikas7754/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </a>
+                  <a href="https://github.com/vikas7754" target="_blank">
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                  <a href="https://freecodez.com" target="_blank">
+                    <FontAwesomeIcon icon={faGlobe} />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/divine_vikas"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={styles.right}>
-            <img src="/main.gif" alt="vikask.in" />
+            <div className={styles.right}>
+              <img src="/main.gif" alt="vikask.in" />
+            </div>
           </div>
         </div>
         <div className={styles.achievements}>
