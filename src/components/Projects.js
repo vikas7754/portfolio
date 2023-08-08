@@ -11,7 +11,7 @@ function Projects() {
   useEffect(() => {
     async function getProjects() {
       try {
-        const data = await getData("project", 6);
+        const data = await getData("project", 8);
         setProjects(data);
         setLoading(false);
       } catch (err) {

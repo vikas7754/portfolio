@@ -1,8 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import styles from "@/styles/Add.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
-function Form({ onSubmit }) {
+function Form({ onSubmit, loading = false }) {
   const [title, setTitle] = useState("");
   const [image, setImage] = useState("");
   const [preview, setPreview] = useState("");
@@ -54,7 +56,10 @@ function Form({ onSubmit }) {
           placeholder="Password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Submit Data</button>
+        <button type="submit" disabled={loading}>
+          Submit Data
+          {loading && <FontAwesomeIcon icon={faSpinner} spin />}
+        </button>
       </form>
     </div>
   );

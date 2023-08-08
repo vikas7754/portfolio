@@ -17,7 +17,7 @@ function Card({ data }) {
           </div>
         </div>
       ) : (
-        <a href={data.link} className={styles.card}>
+        <a href={data.link} target="_blank" className={styles.card}>
           <div className={styles.img}>
             <img src={data.image} alt={data.title} />
           </div>
