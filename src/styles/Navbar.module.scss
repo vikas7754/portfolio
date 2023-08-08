@@ -1,0 +1,129 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 5px 2vw;
+  background: var(--bg);
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg);
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  > button {
+    margin-left: 10px;
+    border-radius: 50%;
+    background: var(--text);
+    border: 1px solid var(--border-color);
+    color: var(--bg);
+    cursor: pointer;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+  img {
+    padding: 5px;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+  }
+  h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--primary);
+  }
+}
+.menu {
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      a {
+        text-decoration: none;
+        color: var(--text);
+        padding: 5px 10px;
+        border-radius: 5px;
+        &:hover {
+          background-color: var(--primary);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.contact {
+  display: flex;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: 5px;
+    &:hover {
+      color: var(--primary);
+    }
+    &:nth-child(2) {
+      background-color: var(--primary);
+      color: var(--text);
+      &:hover {
+        background-color: var(--text);
+        color: var(--primary);
+      }
+    }
+  }
+}
+.toggle {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text);
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    h2 {
+      display: none;
+    }
+  }
+  .toggle {
+    display: flex;
+    align-items: center;
+  }
+  .menu {
+    position: absolute;
+    width: 100%;
+    background: var(--bg);
+    top: 54px;
+    left: 0;
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.5s ease;
+    z-index: 0;
+    ul {
+      flex-direction: column;
+      li {
+        a {
+          display: block;
+          width: 100%;
+          transition: all 0.3s;
+          padding: 10px;
+          font-size: 18px;
+          i {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
