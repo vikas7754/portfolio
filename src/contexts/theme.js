@@ -13,7 +13,8 @@ const themeReducer = (state) => {
     document.body.classList.add("light");
     Cookies.set("darkMode", false);
   } else {
-    document.body.classList.remove("light");
+    if (document.body.classList.contains("light"))
+      document.body.classList.remove("light");
     Cookies.set("darkMode", true);
   }
   return { darkMode: !state.darkMode };

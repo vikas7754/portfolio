@@ -12,7 +12,7 @@
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   h3 {
     width: 120px;
     padding: 2px 0;
@@ -37,7 +37,6 @@
           &:hover {
             color: var(--primary);
             opacity: 1;
-            // text-decoration: underline;
             transform: translateX(3px);
           }
           svg {
@@ -48,7 +47,7 @@
       }
     }
     &:nth-child(1) {
-      flex: 1 0 500px;
+      flex: 1 0 300px;
     }
     &:nth-child(2) {
       flex: 1 0 250px;

@@ -19,6 +19,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg);
   color: var(--text);
+  width: 100vw;
 }
 body.light {
   --primary: #ff923e;

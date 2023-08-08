@@ -7,7 +7,7 @@ function Skills({ second = false }) {
     {
       name: "HTML",
       value: 95,
-      color: "red",
+      color: "rgba(255, 0, 0, 0.5)",
     },
     {
       name: "CSS, SASS",
