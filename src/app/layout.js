@@ -6,6 +6,7 @@ config.autoAddCss = false;
 import "react-toastify/dist/ReactToastify.min.css";
 import "@/styles/swiper.scss";
 import { ToastContainer } from "react-toastify";
+import Script from "next/script";
 
 export const metadata = {
   title: "Portfolio - Vikas",
@@ -32,13 +33,11 @@ export default function RootLayout({ children }) {
             src={`https://www.googletagmanager.com/gtag/js?id=G-NH66M4M9C9`}
           />
           <Script id="google-analytics">
-            {`
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-         
-                  gtag('config', 'G-NH66M4M9C9');
-                `}
+            {`window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-NH66M4M9C9');
+            `}
           </Script>
           {children}
         </body>
