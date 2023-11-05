@@ -28,6 +28,18 @@ export default function RootLayout({ children }) {
             pauseOnHover={true}
             autoClose={3000}
           />
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=G-NH66M4M9C9`}
+          />
+          <Script id="google-analytics">
+            {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+         
+                  gtag('config', 'G-NH66M4M9C9');
+                `}
+          </Script>
           {children}
         </body>
       </html>

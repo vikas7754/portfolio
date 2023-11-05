@@ -24,7 +24,7 @@ function Contact() {
     };
     try {
       const res = await axios.post(
-        "https://api.freecodez.com/api/contact",
+        "https://api.freecodez.com/api/user/contact",
         data
       );
       toast.success(res.data.message);
