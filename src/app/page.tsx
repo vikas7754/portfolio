@@ -1,9 +1,5 @@
-import styles from "./page.module.scss";
+import HomePage from "@/components/pages/Home";
 
 export default function Home() {
-  return (
-    <main className={styles.container}>
-      <h1>Coming Soon</h1>
-    </main>
-  );
+  return <HomePage />;
 }

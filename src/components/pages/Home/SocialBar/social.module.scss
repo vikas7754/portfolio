@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 10px 0;
+  height: 65px;
+  overflow: hidden;
+  justify-content: center;
+  a {
+    display: block;
+    max-width: 150px;
+    width: 100%;
+    text-decoration: none;
+    color: var(--text-dim);
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: translateY(-65px);
+    }
+    strong {
+      display: block;
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100px;
+      &:last-child {
+        color: #205fff;
+      }
+    }
+    i {
+      margin-right: 5px;
+    }
+    &:nth-child(1) {
+      i {
+        color: #3b5998;
+      }
+    }
+    &:nth-child(2) {
+      i {
+        color: #1da1f2;
+      }
+    }
+    &:nth-child(3) {
+      i {
+        color: #ff2020;
+      }
+    }
+    &:nth-child(4) {
+      i {
+        color: #c32aa3;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    a {
+      span {
+        display: none;
+      }
+      i {
+        margin-right: 0;
+      }
+    }
+  }
+}
