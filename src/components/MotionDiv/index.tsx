@@ -50,7 +50,8 @@ export const MotionDiv: FC<Props> = ({
       style={{
         transform: isInView ? "none" : motionStyle,
         opacity: isInView ? 1 : 0,
-        transition: `all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1), opacity 0.9s ease 0.5s`,
+        transition:
+          "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1), opacity 0.9s ease 0.5s",
         transitionDelay: `${delay}s`,
       }}
     >

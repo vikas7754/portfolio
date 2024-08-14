@@ -12,7 +12,8 @@ const HeroSection = () => {
           </MotionDiv>
           <MotionDiv index={1}>
             <p>
-              I'm a software engineer who loves to build things for the web.
+              I'm a Software Engineer. Crafting Efficient Code for Tomorrow's
+              Solutions.
             </p>
           </MotionDiv>
           <MotionDiv index={2} className={styles.buttons}>
@@ -23,7 +24,7 @@ const HeroSection = () => {
             >
               Hire Me On Upwork
             </Link>
-            <Link href="/" className="btn-secondary">
+            <Link href="/#contact" className="btn-secondary">
               <span>Contact</span>
             </Link>
           </MotionDiv>
