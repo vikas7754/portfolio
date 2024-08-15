@@ -1,5 +1,6 @@
 "use client";
 
+import AboutSection from "./About";
 import HeroSection from "./HeroSection";
 import SocialBars from "./SocialBar";
 
@@ -8,6 +9,7 @@ const HomePage = () => {
     <main>
       <HeroSection />
       <SocialBars />
+      <AboutSection />
     </main>
   );
 };

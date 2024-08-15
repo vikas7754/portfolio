@@ -1,5 +1,6 @@
 .wrapper {
   background: url("/bg.png") no-repeat center center/cover;
+  background-color: var(--color-light);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -27,6 +28,7 @@
   p {
     color: rgba(255, 255, 255, 0.7);
     letter-spacing: 1px;
+    line-height: 1.5;
   }
   .buttons {
     display: flex;

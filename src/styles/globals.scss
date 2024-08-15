@@ -15,7 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f1f1f1;
+  background-color: var(--color-light);
   color: #0f0f0f;
   scroll-behavior: smooth;
 }
@@ -29,6 +29,10 @@ body {
 }
 
 .btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
   position: relative;
   text-decoration: none;
   outline: none;
@@ -51,7 +55,7 @@ body {
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
     color: #fff;
-    border-color: var(--pink);
+    border-color: var(--color-primary);
     &::before {
       -webkit-animation: sh02 0.5s 0s linear;
       -moz-animation: sh02 0.5s 0s linear;
@@ -100,6 +104,7 @@ body {
 }
 
 .btn-secondary {
+  width: fit-content;
   position: relative;
   overflow: hidden;
   height: 2.5rem;
