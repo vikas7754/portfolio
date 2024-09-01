@@ -1,4 +1,5 @@
 "use client";
+import MotionDiv from "@/components/MotionDiv";
 import styles from "./social.module.scss";
 import {
   faGithub,
@@ -10,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function SocialBars() {
   return (
-    <div className={styles.container}>
+    <MotionDiv motion="right" className={styles.container}>
       <a href="https://www.linkedin.com/in/vikas7754/" target="_blank">
         <div>
           <div>
@@ -59,7 +60,7 @@ function SocialBars() {
         </div>
         <div>Follow</div>
       </a>
-    </div>
+    </MotionDiv>
   );
 }
 

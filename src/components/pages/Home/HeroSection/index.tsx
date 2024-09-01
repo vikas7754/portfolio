@@ -8,7 +8,9 @@ const HeroSection = () => {
       <div className={styles.container}>
         <div className={styles.left}>
           <MotionDiv>
-            <h1>Hi, I'm Vikas</h1>
+            <h1>
+              Hi, I'm <strong className="gradient">Vikas</strong>
+            </h1>
           </MotionDiv>
           <MotionDiv index={1}>
             <p>

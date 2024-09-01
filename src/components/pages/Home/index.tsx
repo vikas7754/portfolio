@@ -2,6 +2,7 @@
 
 import AboutSection from "./About";
 import HeroSection from "./HeroSection";
+import SkillsSection from "./Skills";
 import SocialBars from "./SocialBar";
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
       <HeroSection />
       <SocialBars />
       <AboutSection />
+      <SkillsSection />
     </main>
   );
 };

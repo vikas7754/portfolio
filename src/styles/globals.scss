@@ -11,13 +11,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--color-light);
-  color: #0f0f0f;
-  scroll-behavior: smooth;
+  background-color: var(--color-dark);
+  color: var(--color-light);
 }
 
 .gradient {
@@ -143,5 +143,30 @@ body {
     border-radius: inherit;
     background: var(--color-gradient);
     transition: all 0.475s;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-primary) !important;
+  z-index: 10 !important;
+  background: var(--color-dark) !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  border: 1px solid var(--color-primary) !important;
+  padding: 5px !important;
+  box-shadow: 0 0 5px var(--color-light) !important;
+  top: calc(50% - 15px) !important;
+  &::after {
+    font-size: 18px !important;
+    font-weight: 700 !important;
   }
 }
