@@ -13,7 +13,7 @@ import MotionDiv from "@/components/MotionDiv";
 
 const SkillsSection = () => {
   return (
-    <section className="container">
+    <section className="container" id="skills">
       <div className={styles.container}>
         <MotionDiv motion="top" className={styles.header}>
           <h2>

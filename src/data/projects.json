@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Freecodez",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725272712/images/oqofiv0ojapeinwzzkf6.webp"
+    ],
+    "description": "Freecodez is a coding platform that provides resources for web development.",
+    "skills": ["Next.js", "Node.js", "MongoDB"],
+    "url": "https://freecodez.com"
+  },
+  {
+    "title": "JDMCLI",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725272660/images/elt6vztqu8rmtviim8xp.webp"
+    ],
+    "description": "JDMCLI is a command line interface that manages dependencies for Java projects.",
+    "skills": ["Java", "Bash", "JavaScript"],
+    "url": "https://jdmjava.com"
+  },
+  {
+    "title": "Personal Portfolio",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725272721/images/zhmstinftsw9usjdtlup.webp"
+    ],
+    "description": "This is a personal portfolio project that showcases my skills and projects.",
+    "skills": ["Next.js", "React.js", "MUI"],
+    "url": "https://vikask.in"
+  },
+  {
+    "title": "Recipe Website",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725272730/images/m4s84qhqnkbw2dshbusz.webp"
+    ],
+    "description": "Recipeglobal.in is a recipe website that provides recipes for various cuisines.",
+    "skills": ["React.js", "Node.js", "MongoDB"],
+    "url": "https://recipeglobal.in"
+  },
+  {
+    "title": "Trayah Pottery",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725273052/images/f6tjy04jswk8rzwa1b5d.webp"
+    ],
+    "description": "Trayah Pottery is an E-commerce pottery website that sells handmade pottery and provides pottery classes.",
+    "skills": ["Next.js", "Node.js", "MongoDB"],
+    "url": "https://trayahpottery.com"
+  },
+  {
+    "title": "Weather Application",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725273052/images/f6tjy04jswk8rzwa1b5d.webp"
+    ],
+    "description": "Weather App is a web application that provides weather information for cities.",
+    "skills": ["React.js", "Node.js", "MongoDB"],
+    "url": "https://github.com/vikas7754/weather-app"
+  },
+  {
+    "title": "Android Webview App",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725273052/images/f6tjy04jswk8rzwa1b5d.webp"
+    ],
+    "description": "Android Webview App is a webview app that converts a website into an Android app.",
+    "skills": ["Android", "Java"],
+    "url": "https://github.com/vikas7754/Android-Webview-Website-to-Android-App"
+  },
+  {
+    "title": "Freecodez Android App",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1725273052/images/f6tjy04jswk8rzwa1b5d.webp"
+    ],
+    "description": "Freecodez Android App is an Android app that provides resources for web development.",
+    "skills": ["React Native", "Node.js", "MongoDB"],
+    "url": "https://github.com/vikas7754/freecodez-app"
+  }
+]

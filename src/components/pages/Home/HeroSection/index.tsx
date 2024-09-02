@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id="home">
       <div className={styles.container}>
         <div className={styles.left}>
           <MotionDiv>
@@ -26,7 +26,7 @@ const HeroSection = () => {
             >
               Hire Me On Upwork
             </Link>
-            <Link href="/#contact" className="btn-secondary">
+            <Link href="mailto:vikask4590@gmail.com" className="btn-secondary">
               <span>Contact</span>
             </Link>
           </MotionDiv>

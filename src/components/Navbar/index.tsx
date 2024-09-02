@@ -9,7 +9,7 @@ import MotionDiv from "../MotionDiv";
 const links = [
   {
     name: "Home",
-    href: "/",
+    href: "/#home",
   },
   {
     name: "About",
@@ -24,6 +24,10 @@ const links = [
     href: "/#projects",
   },
   {
+    name: "Testimonials",
+    href: "/#testimonials",
+  },
+  {
     name: "Contact",
     href: "/#contact",
   },
@@ -36,6 +40,11 @@ const Navbar = () => {
   const toggleMenu = (e: any) => {
     e.preventDefault();
     setOpen(!open);
+  };
+
+  const handleClick = (i: number) => {
+    setActive(i);
+    setOpen(false);
   };
 
   return (
@@ -65,7 +74,7 @@ const Navbar = () => {
                 className={`${styles.navLink} ${
                   active === i ? styles.active : ""
                 }`}
-                onClick={() => setActive(i)}
+                onClick={() => handleClick(i)}
               >
                 {link.name}
               </Link>

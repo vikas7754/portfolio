@@ -7,28 +7,36 @@
         "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "CSS & SASS",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270392/images/nylocibapopphtbv1zuv.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "JS & TS",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270470/images/bxqelcfsaylfqbakds8j.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "React.js & Redux",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270546/images/e4nkcoztooduytnjgugb.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Next.js",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270614/images/n7x2g1itt2pvoxfrqhcw.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "React Native",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270771/images/rt0dvxigrqdoodiqhs8j.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Tailwind CSS",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270839/images/u6kmypqmpx0ioycqh8wv.webp"
+      },
+      {
+        "title": "Material UI",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270933/images/l5grznx34oakb14uncpw.webp"
+      },
+      {
+        "title": "Bootstrap",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725270943/images/ml9ns0qfjg0dfcvkgtnb.webp"
       }
     ]
   },
@@ -36,32 +44,40 @@
     "type": "Backend",
     "skills": [
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Node.js",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271396/images/k8kxxa1zuwmodp4hlqih.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Express.js",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271407/images/ya1pdmlp94efnusyksid.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "MongoDB",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271417/images/yn3sov3sweyyfiqe1vqj.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "MySQL",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271428/images/nkote9g8qhpef8ugo31h.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "DSA with JAVA",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271438/images/fwhexvny4e8eiyxyk7r4.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Spring Boot",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271487/images/cnkjz7pfdlcnk4xbeox6.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "REST & GraphQL APIs",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271499/images/cbudjpe8l6ld7l0ro8d1.webp"
+      },
+      {
+        "title": "Redis",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271733/images/crihkhhmo7fytpuwwpcs.webp"
+      },
+      {
+        "title": "JWT & OAuth",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271687/images/yifnocbbx976czbkoxwv.webp"
       }
     ]
   },
@@ -69,32 +85,32 @@
     "type": "Others",
     "skills": [
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Git & GitHub",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272056/images/xwnj8c9rk1fmbi05edaa.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Docker",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272067/images/vguny9s9idlqqiznfap6.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Linux",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272079/images/dvg7is08ixqjsjnwpdiw.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "AWS & GCP",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272088/images/etruulbzdacjew0rhcgd.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Apache Kafka",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272104/images/b1ufcxjrea0ntu9bihqs.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Apache Spark",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272112/images/xpdbuv6p3usmaibdjcij.webp"
       },
       {
-        "title": "HTML",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725130030/images/aqvfbxc7qycyrmilaynd.webp"
+        "title": "Scala & Python",
+        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272120/images/hard51oatbtbymcxdorb.webp"
       }
     ]
   }

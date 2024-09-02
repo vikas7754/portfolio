@@ -1,0 +1,71 @@
+.container {
+  border: 1px solid rgba(224, 224, 224, 0.25);
+  border-radius: 15px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h3 {
+    font-size: clamp(0.8rem, 2vw, 1.1rem);
+    svg {
+      margin-left: 5px;
+    }
+    a {
+      text-decoration: none;
+      display: block;
+    }
+    &:hover strong {
+      background: #5c5cff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  p {
+    opacity: 0.7;
+  }
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  > span {
+    display: block;
+    padding: 5px;
+    border: 1px solid rgba(224, 224, 224, 0.25);
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}
+
+.bullet {
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+}
+
+.bulletActive {
+  background: var(--color-primary);
+  width: 25px;
+  border-radius: 10px;
+}

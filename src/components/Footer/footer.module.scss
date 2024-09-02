@@ -7,4 +7,14 @@
   background: var(--color-dark);
   color: var(--color-light);
   padding: 2rem;
+  hr {
+    width: 100%;
+    opacity: 0.5;
+  }
+  p {
+    text-align: center;
+  }
+  .heart {
+    color: red;
+  }
 }
