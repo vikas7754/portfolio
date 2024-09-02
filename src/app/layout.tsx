@@ -12,6 +12,20 @@ export const metadata: Metadata = {
   title: "Vikas | Full Stack Developer",
   description:
     "Hi, My name is Vikas. I am a full stack developer. Visit freecodez.com to learn web development for free. Check out my portfolio on vikask.in to see my work.",
+  openGraph: {
+    title: "Vikas | Full Stack Developer",
+    description:
+      "Hi, My name is Vikas. I am a full stack developer. Visit freecodez.com to learn web development for free. Check out my portfolio on vikask.in to see my work.",
+    siteName: "Vikas | Full Stack Developer",
+    images: [
+      {
+        url: "https://res.cloudinary.com/freecodez/image/upload/v1725292194/images/czqh61n5lebaftqpgeg9.webp",
+        width: 600,
+        height: 200,
+        alt: "Vikas | Full Stack Developer",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
