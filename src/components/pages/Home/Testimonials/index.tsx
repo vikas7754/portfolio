@@ -17,7 +17,10 @@ const Testimonials = () => {
           <strong className="gradient">Testimonials</strong>
         </h2>
         <div className={styles.divider}></div>
-        <p>Here are some of the technologies I have worked with in the past.</p>
+        <p>
+          Here are some of the things people have to say about their experience
+          with me.
+        </p>
       </MotionDiv>
       <div className={styles.testimonials}>
         <Swiper
