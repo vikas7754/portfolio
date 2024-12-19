@@ -1,10 +1,15 @@
 import Link from "next/link";
 import styles from "./about.module.scss";
 import MotionDiv from "@/components/MotionDiv";
+import { FC } from "react";
 
-const AboutSection = () => {
+interface Props {
+  ref: any;
+}
+
+const AboutSection: FC<Props> = ({ ref }) => {
   return (
-    <section className={styles.wrapper} id="about">
+    <section className={styles.wrapper} id="about" ref={ref}>
       <div className={styles.container}>
         <MotionDiv motion="left" className={styles.left}>
           <img src="/about.gif" alt="Vikas about section" />

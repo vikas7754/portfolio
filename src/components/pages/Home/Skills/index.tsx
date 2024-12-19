@@ -10,10 +10,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import MotionDiv from "@/components/MotionDiv";
+import { FC } from "react";
 
-const SkillsSection = () => {
+interface Props {
+  ref: any;
+}
+
+const SkillsSection: FC<Props> = ({ ref }) => {
   return (
-    <section className="container" id="skills">
+    <section className="container" id="skills" ref={ref}>
       <div className={styles.container}>
         <MotionDiv motion="top" className={styles.header}>
           <h2>

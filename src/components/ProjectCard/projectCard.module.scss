@@ -3,6 +3,10 @@
   border-radius: 15px;
   overflow: hidden;
   height: 100%;
+  transition: all 0.3s;
+  &:hover {
+    border-color: var(--blue);
+  }
 }
 
 .image {
@@ -41,6 +45,7 @@
 .skills {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 5px;
   > span {
     display: block;

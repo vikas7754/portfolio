@@ -6,6 +6,10 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   overflow: hidden;
+  transition: all 0.3s;
+  &:hover {
+    border-color: var(--blue);
+  }
 }
 
 .image {

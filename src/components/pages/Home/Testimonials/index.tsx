@@ -8,10 +8,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import TestimonialType from "@/types/testimonial";
 import TestimonialCard from "@/components/TestimonialCard";
+import { FC } from "react";
 
-const Testimonials = () => {
+interface Props {
+  ref: any;
+}
+
+const Testimonials: FC<Props> = ({ ref }) => {
   return (
-    <section className="container" id="testimonials">
+    <section className="container" id="testimonials" ref={ref}>
       <MotionDiv motion="top" className={styles.header}>
         <h2>
           <strong className="gradient">Testimonials</strong>

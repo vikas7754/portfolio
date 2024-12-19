@@ -1,10 +1,15 @@
 import MotionDiv from "@/components/MotionDiv";
 import styles from "./hero.module.scss";
 import Link from "next/link";
+import { FC } from "react";
 
-const HeroSection = () => {
+interface Props {
+  ref: any;
+}
+
+const HeroSection: FC<Props> = ({ ref }) => {
   return (
-    <section className={styles.wrapper} id="home">
+    <section className={styles.wrapper} id="home" ref={ref}>
       <div className={styles.container}>
         <div className={styles.left}>
           <MotionDiv>

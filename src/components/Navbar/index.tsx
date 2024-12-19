@@ -5,6 +5,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 import MotionDiv from "../MotionDiv";
+import useTheme from "@/redux/hooks/useNavbar";
 
 const links = [
   {
@@ -34,7 +35,7 @@ const links = [
 ];
 
 const Navbar = () => {
-  const [active, setActive] = useState(0);
+  const { active, setActive } = useTheme();
   const [open, setOpen] = useState(false);
 
   const toggleMenu = (e: any) => {

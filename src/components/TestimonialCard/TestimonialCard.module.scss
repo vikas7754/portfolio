@@ -6,6 +6,10 @@
   flex-direction: column;
   gap: 20px;
   height: 100%;
+  transition: all 0.3s;
+  &:hover {
+    border-color: var(--blue);
+  }
   hr {
     opacity: 0.5;
   }

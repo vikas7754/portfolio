@@ -8,10 +8,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { FC } from "react";
 
-const ProjectsSection = () => {
+interface Props {
+  ref: any;
+}
+
+const ProjectsSection: FC<Props> = ({ ref }) => {
   return (
-    <section className="container" id="projects">
+    <section className="container" id="projects" ref={ref}>
       <MotionDiv motion="top" className={styles.header}>
         <h2>
           My <strong className="gradient">Projects</strong>

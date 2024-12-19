@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { FC, useState } from "react";
 import styles from "./contact.module.scss";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,7 +6,11 @@ import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const ContactSection = () => {
+interface Props {
+  ref: any;
+}
+
+const ContactSection: FC<Props> = ({ ref }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -32,7 +36,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className={styles.container} id="contact">
+    <section className={styles.container} id="contact" ref={ref}>
       <div className={"container " + styles.contactContainer}>
         <div className={styles.form}>
           <div className={styles.header}>
