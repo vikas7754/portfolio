@@ -62,22 +62,6 @@
       {
         "title": "DSA with JAVA",
         "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271438/images/fwhexvny4e8eiyxyk7r4.webp"
-      },
-      {
-        "title": "Spring Boot",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271487/images/cnkjz7pfdlcnk4xbeox6.webp"
-      },
-      {
-        "title": "REST & GraphQL APIs",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271499/images/cbudjpe8l6ld7l0ro8d1.webp"
-      },
-      {
-        "title": "Redis",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271733/images/crihkhhmo7fytpuwwpcs.webp"
-      },
-      {
-        "title": "JWT & OAuth",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725271687/images/yifnocbbx976czbkoxwv.webp"
       }
     ]
   },
@@ -99,18 +83,6 @@
       {
         "title": "AWS & GCP",
         "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272088/images/etruulbzdacjew0rhcgd.webp"
-      },
-      {
-        "title": "Apache Kafka",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272104/images/b1ufcxjrea0ntu9bihqs.webp"
-      },
-      {
-        "title": "Apache Spark",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272112/images/xpdbuv6p3usmaibdjcij.webp"
-      },
-      {
-        "title": "Scala & Python",
-        "image": "https://res.cloudinary.com/freecodez/image/upload/v1725272120/images/hard51oatbtbymcxdorb.webp"
       }
     ]
   }

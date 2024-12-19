@@ -27,7 +27,7 @@ const AboutSection = () => {
           </MotionDiv>
           <MotionDiv motion="left" index={2} className={styles.buttons}>
             <Link
-              href="https://res.cloudinary.com/freecodez/image/upload/v1723445860/Resume_Vikas_iwuws4.pdf"
+              href="https://res.cloudinary.com/freecodez/image/upload/v1734633143/Resume_Vikas_mbg5gt.pdf"
               className="btn-primary"
               target="_blank"
             >

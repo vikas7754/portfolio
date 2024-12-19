@@ -9,13 +9,13 @@
     "url": "https://freecodez.com"
   },
   {
-    "title": "JDMCLI",
+    "title": "JewelSetu - E-commerce Jewellery Website",
     "images": [
-      "https://res.cloudinary.com/freecodez/image/upload/v1725272660/images/elt6vztqu8rmtviim8xp.webp"
+      "https://res.cloudinary.com/freecodez/image/upload/v1734633711/Screenshot_2024-12-18_at_1.51.10_AM_ygitgf.png"
     ],
-    "description": "JDMCLI is a command line interface that manages dependencies for Java projects.",
-    "skills": ["Java", "Bash", "JavaScript"],
-    "url": "https://jdmjava.com"
+    "description": "JewelSetu is an E-commerce jewellery website that sells handmade jewellery.",
+    "skills": ["Next.js", "Node.js", "MongoDB", "React Native"],
+    "url": "https://freecodez.com"
   },
   {
     "title": "Personal Portfolio",
@@ -27,13 +27,22 @@
     "url": "https://vikask.in"
   },
   {
+    "title": "SV Jewellers Bullion App",
+    "images": [
+      "https://res.cloudinary.com/freecodez/image/upload/v1734634679/huge_mmkcqe.png"
+    ],
+    "description": "It's a bullion app that provides real-time gold and silver rates.",
+    "skills": ["React Native", "Node.js", "MongoDB"],
+    "url": "https://play.google.com/store/apps/details?id=com.alphaaxistechnologies.svjewellers"
+  },
+  {
     "title": "Recipe Website",
     "images": [
       "https://res.cloudinary.com/freecodez/image/upload/v1725272730/images/m4s84qhqnkbw2dshbusz.webp"
     ],
     "description": "Recipeglobal.in is a recipe website that provides recipes for various cuisines.",
     "skills": ["React.js", "Node.js", "MongoDB"],
-    "url": "https://recipeglobal.in"
+    "url": "https://github.com/vikas7754/recipeglobal"
   },
   {
     "title": "Trayah Pottery",
