@@ -9,15 +9,6 @@
     "url": "https://freecodez.com"
   },
   {
-    "title": "JewelSetu - E-commerce Jewellery Website",
-    "images": [
-      "https://res.cloudinary.com/freecodez/image/upload/v1734633711/Screenshot_2024-12-18_at_1.51.10_AM_ygitgf.png"
-    ],
-    "description": "JewelSetu is an E-commerce jewellery website that sells handmade jewellery.",
-    "skills": ["Next.js", "Node.js", "MongoDB", "React Native"],
-    "url": "https://freecodez.com"
-  },
-  {
     "title": "Personal Portfolio",
     "images": [
       "https://res.cloudinary.com/freecodez/image/upload/v1725272721/images/zhmstinftsw9usjdtlup.webp"
@@ -25,15 +16,6 @@
     "description": "This is a personal portfolio project that showcases my skills and projects.",
     "skills": ["Next.js", "React.js", "MUI"],
     "url": "https://vikask.in"
-  },
-  {
-    "title": "SV Jewellers Bullion App",
-    "images": [
-      "https://res.cloudinary.com/freecodez/image/upload/v1734634679/huge_mmkcqe.png"
-    ],
-    "description": "It's a bullion app that provides real-time gold and silver rates.",
-    "skills": ["React Native", "Node.js", "MongoDB"],
-    "url": "https://play.google.com/store/apps/details?id=com.alphaaxistechnologies.svjewellers"
   },
   {
     "title": "Recipe Website",
